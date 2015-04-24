@@ -1,0 +1,341 @@
+/***********************************************************************************************/
+/*  Home Page CSS */
+/***********************************************************************************************/
+.form-inline-wrapper {
+  background: none repeat scroll 0 0 #36383a;
+  border-radius: 6px;
+  margin-top: 25px;
+  padding:20px;
+}
+.group1, 
+.group2,
+.test-button{
+	width: 100%;
+}
+.no-padding{
+	padding: 0;
+}
+
+
+/***********************************************************************************************/
+/*  Result Page CSS */
+/***********************************************************************************************/
+.right-area {
+  background: none repeat scroll 0 0 #fff;
+  padding: 30px 20px;
+}
+.right-area h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.section-results {
+  background: none repeat scroll 0 0 #18bb9c;
+  display: block;
+  overflow: hidden;
+  padding: 10px 0 0;
+}
+.right-results, .recommendations, .domain {
+  border-bottom: 2px dotted #ddd;
+}
+.right-results > h3 {
+  font-size: 25px;
+  margin-bottom: 51px;
+}
+
+#summaries .summary .score {
+  background-color: #a3d43a;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12pt;
+  height: 45px;
+  left: 10px;
+  margin: 0 15px 0 10px;
+  padding: 14px 2px;
+  position: absolute;
+  text-align: center;
+  width: 45px;
+}
+
+#summaries .summary-overall .score {
+  border-bottom: 1px solid #eee;
+  font-size: 18pt;
+  height: 60px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  padding: 17px 2px 23px;
+  width: 60px;
+}
+#summaries .summary-overall {
+  margin-bottom: -5px;
+  padding-bottom: 15px;
+}
+#summaries .summary h3,#summaries .summary h4 {
+  margin-left: 70px;
+}
+#summaries .summary h4{
+	margin-bottom: 5px;
+	margin-left: 68px;
+}
+.summary p {
+  font-size: 17px;
+  margin-left: 68px;
+}
+#summaries .summary-overall{
+	margin-bottom: 30px;
+}
+#summaries .summary-overall h3{
+	margin-bottom: 2px;
+}
+.summary {
+  margin-bottom: 25px;
+}
+.pc {
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+.right-image-aside p {
+  font-size: 17px;
+}
+.see-more {
+  margin-top: -7px;
+}
+.see-more > a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+.see-more .fa {
+  left: 3px;
+  position: relative;
+  top: -2px;
+}
+
+
+/**********Recommended ARea**********/
+.recommendations li{
+  background: url("../img/idea.png") no-repeat scroll 0 10px #ffffff;
+  list-style: outside none none;
+  margin: 15px 0 -16px;
+  padding: 10px 10px 10px 40px;
+}
+.recommendations, .domain {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/**********Recommended ARea**********/
+#domain .score {
+  background-color: #8844bb;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 14pt;
+  font-weight: 600;
+  height: 45px;
+  left: 35px;
+  margin: -15px -19px 0;
+  padding: 12px 2px;
+  position: absolute;
+  text-align: center;
+  width: 45px;
+}
+#domain h3 {
+  font-size: 20px;
+  margin-top: 6px;
+  padding-left: 51px;
+}
+.report-help-link span {
+  float: right;
+  text-align: right;
+}
+.summary-good ul, .summary-bad ul{
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.summary-good ul li {
+  background: url("../img/panel-good.png") no-repeat scroll 22px 24px / 24px 25px #d8f4d8;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05) inset;
+  color: #226622;
+  margin: 20px 0;
+  padding: 25px 60px;
+}
+.summary-bad ul li {
+  background: url("../img/panel-bad.png") no-repeat scroll 22px 24px / 24px 25px #FFE0D0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05) inset;
+  color: #882200;
+  margin: 20px 0;
+  padding: 25px 60px;
+}
+
+
+
+#domain .splitpanel.split-image {
+  background: url("../img/split-image.png") no-repeat scroll left center / 72px 127px #f8f8f8;
+}
+
+#domain .reportbox {
+  background: none repeat scroll 0 0 #f8f8f8;
+  border: 0 solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05) inset;
+  color: #444;
+  display: table;
+  float: left;
+  height: 130px;
+  margin: 0 10px 15px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+#domain .splitpanel p .largetext {
+  font-size: 20pt;
+  line-height: 30px;
+}
+#domain .reportbox .largetext {
+  color: #444;
+  display: block;
+  font-size: 18pt;
+}
+#domain .report-tab p {
+  margin: 15px 0;
+}
+#domain .reportbox p {
+  display: table-cell;
+  font-size: 17px;
+  height: 130px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+#domain .splitpanel p {
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 0 10px 3px 82px;
+  text-align: left !important;
+}
+
+/***************Side Navigation**************/
+.ul-side-nav {
+  background: none repeat scroll 0 0 #fff;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+/*.ul-side-nav {
+  background: none repeat scroll 0 0 #fff;
+  left: 20px;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 111px;
+  width: 24%;
+}*/
+.ul-side-nav li{}
+.ul-side-nav li a {
+  border-top: 1px dotted #ddd;
+  color: #777;
+  display: block;
+  font-size: 14px;
+  padding: 8px 15px;
+  width: 100%;
+  background: #F3F3F3;
+  font-weight: bold;
+  -webkit-transition: .4s all ease-in-out;
+  -o-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+}
+
+.ul-side-nav li a:hover{
+	color: #000;
+	background: #fff;
+	text-decoration: none;
+}
+.ul-side-nav span {
+  background: none repeat scroll 0 0 #a3d43a;
+  color: #fff;
+  float: right;
+  font-size: 11px;
+  padding: 1px 4px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.ul-side-nav .red span {
+	background: #C62C2C;
+}
+.ul-side-nav .brown span {
+	background: #E19723;
+}
+.no-link a{
+	cursor: auto;
+}
+.no-link a:focus,.no-link a:active, .ul-side-nav li.no-link a:hover {
+	text-decoration: none;
+	background: #F3F3F3 !important;
+	color: #777;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.side-nav {
+  position: fixed;
+  width: 24%;
+}
+.ul-side-nav li.current  a{
+	background: #fff;
+}
+
+/***********************************************************************************************/
+/*  Responsive/adaptive stuff */
+/***********************************************************************************************/
+
+/** 980* 1280 **/
+@media only screen and (min-width: 960px) and (max-width: 980px){
+
+.side-nav {
+  position: relative;
+  width: 100%;
+}	
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and(max-width:959px){
+	
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers)  800*1280 , 768*1024 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+.side-nav {
+  position: relative;
+  width: 100%;
+}
+}
+/* All Mobile Sizes (devices and browser) 360*640 */
+@media only screen and (max-width: 767px) {
+	
+.no-padding{
+	padding: 0 15px;
+}
+.side-nav {
+  position: relative;
+  width: 100%;
+}
+
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.side-nav {
+  position: relative;
+  width: 100%;
+}	
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 320*480  */
+@media only screen and (max-width: 479px) {
+
+}
